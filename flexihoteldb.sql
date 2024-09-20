@@ -1,1 +1,4 @@
-CREATE database `flexihoteldb`
+CREATE database `flexihoteldb`;
+
+USE `flexihoteldb`;
+
