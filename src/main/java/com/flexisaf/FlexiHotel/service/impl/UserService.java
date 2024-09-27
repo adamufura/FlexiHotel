@@ -180,7 +180,7 @@ public class UserService implements IUserService {
             response.setMessage(e.getMessage());
         }catch (Exception e){
             response.setStatusCode(500);
-            response.setMessage("Error occurred during user registration " + e.getMessage());
+            response.setMessage("Error occurred " + e.getMessage());
         }
 
         return response;
@@ -205,7 +205,7 @@ public class UserService implements IUserService {
             response.setMessage(e.getMessage());
         }catch (Exception e){
             response.setStatusCode(500);
-            response.setMessage("Error occurred during user registration " + e.getMessage());
+            response.setMessage("Error occurred getting user info " + e.getMessage());
         }
 
         return response;
